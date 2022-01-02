@@ -41,4 +41,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 # Run docker image
 
-~ docker build -t react-typescript-seed
+## Build image(the period must be part of the command)
+~ docker build -t react-typescript-seed .
+
+## Run image
+docker run --rm -it -p 8080:80 react-typescript-seed
